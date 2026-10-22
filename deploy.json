@@ -19,6 +19,9 @@
     },
     "DeploymentID": {
       "type": "string"
+    },
+    "resetUserPassword": {
+      "type": "string"
     }
   },
   "variables": {
@@ -188,6 +191,10 @@
     "LABVM Admin Username": {
       "type": "String",
       "value": "[parameters('adminUsername')]"
+    },
+    "LABVM Admin Password": {
+      "type": "String",
+      "value": "[parameters('resetUserPassword')]"
     },
     "LABVM Private IP": {
       "type": "string",
