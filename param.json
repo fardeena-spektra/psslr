@@ -19,6 +19,9 @@
     },
     "DeploymentID": {
       "value": "GET-DEPLOYMENT-ID"
+    },
+    "resetUserPassword": {
+      "value": "PRTG4training"
     }
   }
 }
